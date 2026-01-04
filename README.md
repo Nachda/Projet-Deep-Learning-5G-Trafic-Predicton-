@@ -156,7 +156,7 @@ git clone https://github.com/Nachda/Projet-Deep-Learning-5G-Trafic-Predicton-.gi
 cd Projet-Deep-Learning-5G-Trafic-Predicton- 
 ```
 **Explication :**
-- `git clone ...` :Télécharge une copie complète de ton projet GitHub sur la machine locale (code,dossier, historique Git).
+- `git clone ...` :Télécharge une copie complète du projet GitHub sur la machine locale (code,dossier, historique Git).
 ​
 Après cette commande, un dossier Projet-Deep-Learning-5G-Trafic-Predicton- est créé dans le répertoire courant.
 ​
