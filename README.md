@@ -153,26 +153,27 @@ Pour reproduire la démo :
 ```bash
 # 1. Cloner le repository
 git clone https://github.com/Nachda/Projet-Deep-Learning-5G-Trafic-Predicton-.git
-cd Projet-Deep-Learning-5G-Trafic-Predicton-
-
-"git clone ...":
-Télécharge une copie complète de ton projet GitHub sur la machine locale (code, dossier, historique Git).
+cd Projet-Deep-Learning-5G-Trafic-Predicton- 
+```
+**Explication :**
+- `git clone ...` :Télécharge une copie complète de ton projet GitHub sur la machine locale (code,dossier, historique Git).
 ​
 Après cette commande, un dossier Projet-Deep-Learning-5G-Trafic-Predicton- est créé dans le répertoire courant.
 ​
-"cd Projet-Deep-Learning-5G-Trafic-Predicton-":
+- `cd Projet-Deep-Learning-5G-Trafic-Predicton-` : 
+-Se place à l’intérieur du dossier du projet dans le terminal.
+-Toutes les commandes suivantes (python, pip, streamlit) supposent que tu es dans ce dossier, là où se trouvent app.py, requirements.txt, etc.
 
-Se place à l’intérieur du dossier du projet dans le terminal.
-Toutes les commandes suivantes (python, pip, streamlit) supposent que tu es dans ce dossier, là où se trouvent app.py, requirements.txt, etc.
-
+```bash
 # 2. Créer un environnement virtuel (recommandé)
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
+```
 
-a) Création
+**a) Création**
 "python -m venv venv":
 
 Demande à Python d’exécuter le module venv qui sert à créer des environnements virtuels.
@@ -184,14 +185,14 @@ les dossiers où seront installées les bibliothèques de ce projet seulement.
 
 But : éviter les conflits de versions entre différents projets (par exemple, TensorFlow 2.10 ici, 2.16 dans un autre projet)
 
-b) Activation (Linux / macOS)
+**b) Activation (Linux / macOS)**
 source venv/bin/activate
 
 Modifie ton environnement de terminal pour utiliser le Python et le pip de venv au lieu de ceux du système.​
 
 Le prompt change souvent en quelque chose comme (venv) user@pc:~/Projet-Deep-Learning-5G... pour montrer que l’environnement est actif.
 
-c) Activation (Windows)
+**c) Activation (Windows)**
 venv\Scripts\activate
 
 Même idée que ci‑dessus, mais avec le chemin Windows.
@@ -201,12 +202,15 @@ Tu peux aussi utiliser .\venv\Scripts\activate dans PowerShell.
 Pour sortir de l’environnement virtuel, on tape simplement : deactivate
 Cette commande remet le terminal sur le Python système.
 
-
+```bash
 # 3. Installer les dépendances
 pip install -r requirements.txt
+```
 
+```bash
 # 4. Lancer l'application
 streamlit run app.py
+```
 
 Une fois la commande exécutée :
 
