@@ -248,7 +248,7 @@ with col1:
 with col2:
     st.markdown("""
     **🔗 Ressources**
-    - [🐙 GitHub Repository](https://github.com/)  
+    - [🐙 GitHub Repository](https://github.com/Nachda/Projet-Deep-Learning-5G-Trafic-Predicton-)  
     - [📊 Dataset 5G Kaggle](https://www.kaggle.com/datasets/kimdaegyeom/5g-traffic-datasets)
     """)
 
