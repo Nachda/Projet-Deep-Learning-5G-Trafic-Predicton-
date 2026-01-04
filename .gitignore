@@ -1,0 +1,27 @@
+MS_Teams_1.csv
+
+# Environnements virtuels
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/cache/
+
+# Modèles entraînés (tu peux changer si tu veux les versionner)
+models/
+
+# Données générées
+data/uploaded/
+data/processed/
+
+# Notebooks éventuels
+*.ipynb_checkpoints/
