@@ -17,7 +17,7 @@ L’objectif est de construire un **pipeline complet** (prétraitement, entraîn
 Le notebook d’analyse détaillée ainsi que le rapport du projet sont disponible dans le dépôt :
 
 - `Projet_DL_Nachda_Nourouddine.ipynb` 
-- `Rapport de projet dee^p learning.pdf `
+- `Rapport de projet deep learning.pdf `
 Ils contiennent :
   - exploration du dataset MS Teams,
   - tests de différents modèles (baselines, ML, Deep Learning),
